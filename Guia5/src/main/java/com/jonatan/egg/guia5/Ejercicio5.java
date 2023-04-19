@@ -21,7 +21,7 @@ public class Ejercicio5 {
         int mt[][]= new int[f][c];
         
         
-        //llenarMatriz(m, f);
+        //llenarMatriz(m, f);           //quitar comentarios para probar con valores aleatorios
         System.out.println("MATRIZ A");
         mostrarMatriz(m);
         
