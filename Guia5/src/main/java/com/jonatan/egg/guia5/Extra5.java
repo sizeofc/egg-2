@@ -14,10 +14,12 @@ import java.util.Random;
 public class Extra5 {
 
     public static void main(String[] args) {
+        Random rand= new Random();
         int sum=0,v[][] = new int[5][5];
         sum=cargarMatrizAleatoria(v);
         mostrarMatriz(v);
         System.out.println("La suma de los elementos de la matriz es:"+sum);
+        System.out.println((char)(rand.nextInt(48,56)));
     }
 
     public static int cargarMatrizAleatoria(int m[][]) {
